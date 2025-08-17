@@ -674,3 +674,17 @@ body {
     height: 450px; /* 固定高度，或使用padding-bottom比例 */
     display: block; /* 去除iframe默认的内边距 */
 }
+
+/* 个人介绍视频容器 */
+.video-container {
+    width: 100%;
+    max-width: 800px; /* 可根据需要调整 */
+    margin: 0 auto; /* 居中显示 */
+}
+
+/* 哔哩哔哩iframe */
+.video-container iframe {
+    width: 100%;
+    height: 450px; /* 16:9比例，可根据需要调整 */
+    border: none;
+}
